@@ -6,6 +6,9 @@ const authRouter = require("./routes/auth/auth-routes");
 const adminProductsRouter = require("./routes/admin/products-routes");
 const adminOrderRouter = require("./routes/admin/order-routes");
 
+const dotenv = require('dotenv');
+const path = require('path');
+
 const shopProductsRouter = require("./routes/shop/products-routes");
 const shopCartRouter = require("./routes/shop/cart-routes");
 const shopAddressRouter = require("./routes/shop/address-routes");
@@ -15,14 +18,13 @@ const shopReviewRouter = require("./routes/shop/review-routes");
 
 const commonFeatureRouter = require("./routes/common/feature-routes");
 
-//create a database connection -> u can also
-//create a separate file for this and then import/use that file here
+dotenv.config({path: path.join(__dirname,'.env')})
 
-mongoose
-  .connect("mongodb://localhost:27017/")
-  .then(() => console.log("MongoDB connected"))
-  .catch((error) => console.log(error));
+const username = process.env.MONGODB_USERNAME
+const password = process.env.MONGODB_PASS
 
+mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.kfehf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`)
+  
 const app = express();
 const PORT = process.env.PORT || 5000;
 
