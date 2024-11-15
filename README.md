@@ -55,7 +55,11 @@ trendigo-ecommerce
 
 1. **Clone the repository**:
    ```bash
+<<<<<<< HEAD
    git clone https://github.com/your-username/trendigo-ecommerce.git
+=======
+   git clone https://github.com/Naveenmon/trendigo-ecommerce.git
+>>>>>>> bced8f9b7fbc79b3a19146c9e277c4a3f05b68be
    cd trendigo-ecommerce
    ```
 
