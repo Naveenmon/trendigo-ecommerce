@@ -22,15 +22,18 @@ dotenv.config({path: path.join(__dirname,'.env')})
 
 const username = process.env.MONGODB_USERNAME
 const password = process.env.MONGODB_PASS
+const vercelUrl = process.env.VITE_REACT_APP_URL
+
 
 mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.kfehf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`)
   
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+
 app.use(
   cors({
-    origin: ["https://trendigo-gezkk7jpe-naveenmons-projects.vercel.app/"],
+    origin: `${vercelUrl}`,
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
@@ -59,3 +62,4 @@ app.use("/api/shop/review", shopReviewRouter);
 app.use("/api/common/feature", commonFeatureRouter);
 
 
+app.listen(PORT, () => console.log(`Server is now running on port ${PORT}`));
