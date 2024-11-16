@@ -22,13 +22,13 @@ dotenv.config({path: path.join(__dirname,'.env')})
 
 const username = process.env.MONGODB_USERNAME
 const password = process.env.MONGODB_PASS
-const vercelUrl = process.env.VITE_REACT_APP_URL
+const vercelUrl = process.env.VITE_REACT_APP_FRONTEND_URL
 
 
 mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.kfehf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`)
   
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.VITE_REACT_APP_BACKEND_URL || 5000;
 
 
 app.use(
