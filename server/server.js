@@ -37,19 +37,6 @@ mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.kfehf.mongodb.n
   
 const app = express();
 
-
-app.options("*", (req, res) => {
-  res.header("Access-Control-Allow-Origin", req.headers.origin || "*");
-  res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Content-Type, Authorization, Cache-Control, Expires, Pragma"
-  );
-  res.header("Access-Control-Allow-Credentials", "true");
-  res.sendStatus(204);
-});
-
-
 app.use(
   cors({
     origin:  (origin, callback)=>{
