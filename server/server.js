@@ -9,7 +9,7 @@ const adminOrderRouter = require("./routes/admin/order-routes");
 
 const vercelUrl = process.env.VITE_REACT_APP_FRONTEND_URL
 const allowedOrigins = [
-  `${vercelUrl}`, `https://trendigo-ecommerce-new.vercel.app`,
+  `${vercelUrl}`, `https://trendigo-ecommerce.vercel.app`,
 ]
 
 const dotenv = require('dotenv');
