@@ -6,6 +6,14 @@ const authRouter = require("./routes/auth/auth-routes");
 const adminProductsRouter = require("./routes/admin/products-routes");
 const adminOrderRouter = require("./routes/admin/order-routes");
 
+
+const vercelUrl = process.env.VITE_REACT_APP_FRONTEND_URL
+const anotherVercelUrl = process.env.VITE_REACT_APP_ANOTHER_URL
+const anotherVercelUrl2 = process.env.VITE_REACT_APP_CLIENT_URL
+const allowedOrigins = [
+  `${vercelUrl}`, `${anotherVercelUrl}`, `${anotherVercelUrl2}`
+]
+
 const dotenv = require('dotenv');
 const path = require('path');
 
@@ -28,13 +36,19 @@ const password = process.env.MONGODB_PASS
 mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.kfehf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`)
   
 const app = express();
-const PORT = process.env.VITE_REACT_APP_BACKEND_URL || 5000;
-const vercelUrl = process.env.VITE_REACT_APP_FRONTEND_URL
-const anotherVercelUrl = process.env.VITE_REACT_APP_ANOTHER_URL
-const anotherVercelUrl2 = process.env.VITE_REACT_APP_CLIENT_URL
-const allowedOrigins = [
-  `${vercelUrl}`, `${anotherVercelUrl}`, `${anotherVercelUrl2}`
-]
+
+
+app.options("*", (req, res) => {
+  res.header("Access-Control-Allow-Origin", req.headers.origin || "*");
+  res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Content-Type, Authorization, Cache-Control, Expires, Pragma"
+  );
+  res.header("Access-Control-Allow-Credentials", "true");
+  res.sendStatus(204);
+});
+
 
 app.use(
   cors({
@@ -58,16 +72,6 @@ app.use(
   })
 );
 
-app.options("*", (req, res) => {
-  res.header("Access-Control-Allow-Origin", req.headers.origin);
-  res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Content-Type, Authorization, Cache-Control, Expires, Pragma"
-  );
-  res.header("Access-Control-Allow-Credentials", "true");
-  res.sendStatus(204);
-});
 
 app.use(cookieParser());
 app.use(express.json());
@@ -84,5 +88,5 @@ app.use("/api/shop/review", shopReviewRouter);
 
 app.use("/api/common/feature", commonFeatureRouter);
 
-
+const PORT = process.env.VITE_REACT_APP_BACKEND_URL || 5000;
 app.listen(PORT, () => console.log(`Server is now running on port ${PORT}`));
