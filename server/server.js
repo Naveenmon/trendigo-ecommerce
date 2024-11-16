@@ -30,10 +30,21 @@ mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.kfehf.mongodb.n
 const app = express();
 const PORT = process.env.VITE_REACT_APP_BACKEND_URL || 5000;
 const vercelUrl = process.env.VITE_REACT_APP_FRONTEND_URL
+const anotherVercelUrl = process.env.VITE_REACT_APP_ANOTHER_URL
+const anotherVercelUrl2 = process.env.VITE_REACT_APP_CLIENT_URL
+const allowedOrigins = [
+  `${vercelUrl}`, `${anotherVercelUrl}`, `${anotherVercelUrl2}`
+]
 
 app.use(
   cors({
-    origin: `${vercelUrl}`,
+    origin:  (origin, callback)=>{
+      if(!origin || allowedOrigins.includes(origin)){
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"))
+      }
+    },
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
