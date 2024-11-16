@@ -43,6 +43,7 @@ app.use(
       "Cache-Control",
       "Expires",
       "Pragma",
+      "Access-Control-Allow-Origin"
     ],
     credentials: true,
   })
