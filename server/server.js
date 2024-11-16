@@ -8,10 +8,8 @@ const adminOrderRouter = require("./routes/admin/order-routes");
 
 
 const vercelUrl = process.env.VITE_REACT_APP_FRONTEND_URL
-const anotherVercelUrl = process.env.VITE_REACT_APP_ANOTHER_URL
-const anotherVercelUrl2 = process.env.VITE_REACT_APP_CLIENT_URL
 const allowedOrigins = [
-  `${vercelUrl}`, `${anotherVercelUrl}`, `${anotherVercelUrl2}`
+  `${vercelUrl}`, `https://trendigo-ecommerce-new.vercel.app`,
 ]
 
 const dotenv = require('dotenv');
@@ -58,6 +56,11 @@ app.use(
     optionsSuccessStatus:204
   })
 );
+
+app.use((req, res, next) => {
+  console.log('Request Origin:', req.headers.origin);
+  next();
+});
 
 
 app.use(cookieParser());
