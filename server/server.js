@@ -36,14 +36,6 @@ const PORT = process.env.VITE_REACT_APP_BACKEND_URL || 5000;
 app.use(
   cors({
     origin: `${vercelUrl}`,
-    methods: ["GET", "POST", "DELETE", "PUT"],
-    allowedHeaders: [
-      "Content-Type",
-      "Authorization",
-      "Cache-Control",
-      "Expires",
-      "Pragma",
-    ],
     credentials: true,
   })
 );
