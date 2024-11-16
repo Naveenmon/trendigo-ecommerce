@@ -25,7 +25,9 @@ const password = process.env.MONGODB_PASS
 const vercelUrl = process.env.VITE_REACT_APP_FRONTEND_URL
 
 
-mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.kfehf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`)
+mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.kfehf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`).then(()=>{
+  console.log('MongoDB conneceted successfully')
+})
   
 const app = express();
 const PORT = process.env.VITE_REACT_APP_BACKEND_URL || 5000;
