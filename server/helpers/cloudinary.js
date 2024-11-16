@@ -2,7 +2,7 @@ const cloudinary = require("cloudinary").v2;
 const multer = require("multer");
 const dotenv = require('dotenv')
 const path = require('path')
-dotenv.config({path: path.join(__dirname,'config.env')})
+dotenv.config({path: path.join(__dirname,'../', '.env')})
 
 cloudinary.config({
   cloud_name: process.env.COLUDINARY_NAME,
