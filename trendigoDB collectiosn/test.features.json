@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "6736e4b6fe9e461b9855344b"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731650741/trendigo/jzucozfprtwbad8nthph.jpg",
+  "createdAt": {
+    "$date": "2024-11-15T06:05:42.662Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T06:05:42.662Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6736e7a5fe9e461b98553460"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731651457/trendigo/ou8tzjfnbgr4xu3jddyp.jpg",
+  "createdAt": {
+    "$date": "2024-11-15T06:18:13.873Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T06:18:13.873Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6736ed79fe9e461b98553478"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731652983/trendigo/bdgovivxupsy3jpmkilb.jpg",
+  "createdAt": {
+    "$date": "2024-11-15T06:43:05.702Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T06:43:05.702Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6736ed89fe9e461b9855347b"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731652999/trendigo/oifobltdn6bjt6ot3f06.jpg",
+  "createdAt": {
+    "$date": "2024-11-15T06:43:21.923Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T06:43:21.923Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6736fa3a6caa7803af1af1a1"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731656248/trendigo/ffpas5y0eayndxdtohv5.webp",
+  "createdAt": {
+    "$date": "2024-11-15T07:37:30.221Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T07:37:30.221Z"
+  },
+  "__v": 0
+}]

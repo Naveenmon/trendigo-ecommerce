@@ -1,0 +1,462 @@
+[{
+  "_id": {
+    "$oid": "6736ee4cfe9e461b9855348f"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731653157/trendigo/im6x2asukrc8rikamfqf.jpg",
+  "title": "New Balance",
+  "description": "New Balance Running/Casual Shoes",
+  "category": "footwear",
+  "brand": "nike",
+  "price": 6999,
+  "salePrice": 5499,
+  "totalStock": 4,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T06:46:36.807Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T06:46:36.807Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6736f7e7fe9e461b985534a5"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731655598/trendigo/fbwu55ufbec0slewstul.jpg",
+  "title": "Shirt Combo Men& kids",
+  "description": "It is a matching combo for father and son",
+  "category": "men",
+  "brand": "puma",
+  "price": 2500,
+  "salePrice": 2199,
+  "totalStock": 6,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T07:27:35.189Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T07:27:35.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6736f82ffe9e461b985534a8"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731655701/trendigo/gazbfaoqldwkurmyonl4.jpg",
+  "title": "Female Crop Top",
+  "description": "Crop top for female",
+  "category": "women",
+  "brand": "levi",
+  "price": 1299,
+  "salePrice": 999,
+  "totalStock": 2,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T07:28:47.816Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T07:28:47.816Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6737363fda2ae4f901979980"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731671584/trendigo/pozxi6m5kj1ppmf8lxzw.jpg",
+  "title": "Adidas Core Essentials Hoodie",
+  "description": "Stay cozy and stylish with the Adidas Core Essentials Hoodie. Crafted with a soft cotton-blend fabric, this hoodie delivers ultimate comfort for your active lifestyle. Featuring the iconic Adidas logo on the chest and a classic kangaroo pocket, it’s perfect for workouts, casual outings, or lounging at home. The adjustable drawstring hood and ribbed cuffs ensure a snug fit, while the modern design keeps you looking fresh on and off the track. Elevate your wardrobe with this versatile hoodie that blends performance and timeless style.",
+  "category": "men",
+  "brand": "adidas",
+  "price": 5999,
+  "salePrice": 5999,
+  "totalStock": 2,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T11:53:35.238Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T11:53:35.238Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673737f4da2ae4f901979983"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731671760/trendigo/lr75yjwc2n9lypl7btwc.jpg",
+  "title": "Nike FutureStride Sneakers",
+  "description": "Step into the future with the Nike FutureStride Sneakers. Engineered for tomorrow’s trends and today’s comfort, these sneakers feature a sleek, aerodynamic design with innovative Flyknit uppers for a snug, adaptive fit. Equipped with cutting-edge React foam cushioning, every step feels like walking on air. Reflective accents and bold, futuristic patterns make a statement, whether you're hitting the streets or running the track. Built for versatility, style, and performance, the FutureStride Sneakers are perfect for those who dare to push boundaries.",
+  "category": "footwear",
+  "brand": "nike",
+  "price": 12000,
+  "salePrice": 9999,
+  "totalStock": 3,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:00:52.737Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:00:52.737Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67373848da2ae4f901979986"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731672084/trendigo/xhvf8xucrmunfi3rosdb.jpg",
+  "title": "Matching Duo: Father & Kid Tee & Sneaker Combo",
+  "description": "Celebrate the bond with the Matching Duo Combo Set, designed for dads and their little champs. This set includes premium cotton t-shirts with coordinated designs and a pair of versatile, lightweight sneakers for both father and child. Perfect for family outings, photo shoots, or just having fun together, this combo blends comfort, durability, and style. Let your dynamic duo stand out with this matching set that’s as unique as your connection.",
+  "category": "kids",
+  "brand": "levi",
+  "price": 3499,
+  "salePrice": 3199,
+  "totalStock": 1,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:02:16.328Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:02:16.328Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673738adda2ae4f901979989"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731672194/trendigo/zxzf0f2dwqabisytbwae.jpg",
+  "title": "Nike Air Jordan Legacy Sneakers",
+  "description": "Elevate your style game with the iconic Nike Air Jordan Legacy Sneakers. Designed for both performance and streetwear appeal, these kicks feature premium materials, bold colorways, and the legendary Jumpman logo. With responsive Air cushioning for unparalleled comfort and a durable outsole for maximum grip, they’re perfect for the court and the streets. Whether you’re making moves or making a statement, the Nike Air Jordan Legacy Sneakers are your go-to for timeless athletic style.\n\n\n\n\n\n\n",
+  "category": "footwear",
+  "brand": "nike",
+  "price": 25000,
+  "salePrice": 19000,
+  "totalStock": 1,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:03:57.919Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:03:57.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673738ecda2ae4f90197998c"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731672265/trendigo/iojhglv5iydopdcbmxom.jpg",
+  "title": "Zara Luxe Comfort Hoodie",
+  "description": "Redefine casual elegance with the Zara Luxe Comfort Hoodie. Crafted from ultra-soft, premium fabric, this hoodie combines minimalist design with maximum versatility. Featuring a relaxed fit, subtle tonal logo detail, and a cozy drawstring hood, it’s the perfect layer for chill days or elevated athleisure looks. Pair it with joggers for laid-back vibes or jeans for a smart-casual edge. Effortlessly chic and undeniably comfortable, the Zara Luxe Comfort Hoodie is a wardrobe essential for every season.\n\n\n\n\n\n\n",
+  "category": "women",
+  "brand": "zara",
+  "price": 5999,
+  "salePrice": 4499,
+  "totalStock": 5,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:05:00.731Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:05:00.731Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6737393eda2ae4f90197998f"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731672342/trendigo/amcpgq5csfataeibe1lk.jpg",
+  "title": "Zara Ruffle Charm Girl’s Top",
+  "description": "Add a touch of charm to her wardrobe with the Zara Ruffle Charm Girl’s Top. Made from lightweight, breathable fabric, this top features delicate ruffle detailing on the sleeves and a relaxed fit for all-day comfort. The elegant design and subtle patterns make it perfect for everything from playdates to special occasions. Pair it with jeans, skirts, or shorts for a versatile look that’s as stylish as it is comfortable. A must-have for every little trendsetter!",
+  "category": "women",
+  "brand": "zara",
+  "price": 2499,
+  "salePrice": 2199,
+  "totalStock": 10,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:06:22.647Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:06:22.647Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6737398bda2ae4f901979992"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731672416/trendigo/rarhzw1mnfbvnrurqg4x.jpg",
+  "title": "PlayActive Kid’s Sneakers",
+  "description": "Keep little feet on the move with the PlayActive Kid’s Sneakers. Designed for comfort and durability, these sneakers feature a lightweight, breathable mesh upper and a cushioned sole for all-day play. With an easy slip-on or Velcro closure, they’re perfect for active kids who are always on the go. Fun, vibrant colors and a sporty design make these sneakers a favorite for school, playdates, or weekend adventures. Built to keep up with their every step!",
+  "category": "kids",
+  "brand": "levi",
+  "price": 2999,
+  "salePrice": 899,
+  "totalStock": 2,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:07:39.360Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:07:39.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67373c02da2ae4f901979995"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731673021/trendigo/c7ur4poynn1upiawvb2y.jpg",
+  "title": "Oakley ClearEdge Eyewear",
+  "description": "Discover unmatched clarity and style with the Oakley ClearEdge Eyewear. Designed with sleek, modern frames and precision-engineered lenses, these glasses combine cutting-edge technology with effortless sophistication. Perfect for daily wear, they feature lightweight materials for all-day comfort and a durable build for long-lasting use. Whether you're at work or on the go, Oakley ClearEdge Eyewear ensures you see the world with unparalleled sharpness and style.",
+  "category": "accessories",
+  "brand": "zara",
+  "price": 1999,
+  "salePrice": 1999,
+  "totalStock": 3,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:18:10.743Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:18:10.743Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67373c48da2ae4f901979998"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731673114/trendigo/srjayhyx2x5ccneqwg2g.jpg",
+  "title": "Eternal Bond Couple Rings",
+  "description": "Celebrate your love with the Eternal Bond Couple Rings. Crafted from high-quality sterling silver with a timeless design, these matching rings symbolize unity and devotion. Featuring subtle engravings and a polished finish, they exude elegance and charm. Perfect for engagements, anniversaries, or just to express your connection, these rings are a heartfelt way to say \"forever.\" A beautiful keepsake for couples who cherish their love story.",
+  "category": "accessories",
+  "brand": "zara",
+  "price": 499,
+  "salePrice": 399,
+  "totalStock": 7,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:19:20.373Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:19:20.373Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67373ca7da2ae4f90197999b"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731673197/trendigo/xb15h6syfj2m6cntfboa.jpg",
+  "title": "LuxeCraft Leather Handbag",
+  "description": "The LuxeCraft Leather Handbag combines premium leather with sleek design, offering a spacious interior and gold-tone hardware. Stylish, durable, and versatile, it’s the perfect accessory for any occasion. Timeless elegance guaranteed.",
+  "category": "women",
+  "brand": "levi",
+  "price": 3449,
+  "salePrice": 2439,
+  "totalStock": 9,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:20:55.508Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:20:55.508Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67373ce8da2ae4f90197999e"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731673297/trendigo/c1mpaxqfa0ncadzh1o0a.jpg",
+  "title": "Classic Chic Handbag",
+  "description": "he Classic Chic Handbag features a sleek, versatile design with a spacious interior and durable construction. Perfect for everyday use, it adds a sophisticated touch to any outfit. Timeless and stylish.",
+  "category": "women",
+  "brand": "h&m",
+  "price": 5000,
+  "salePrice": 3900,
+  "totalStock": 9,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:22:00.787Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:22:00.787Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67373d3eda2ae4f9019799a1"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731673347/trendigo/vzkyxejngfplzcsanlra.jpg",
+  "title": "Ray-Ban Classic Aviator Sunglasses",
+  "description": "Ray-Ban Classic Aviator Sunglasses offer iconic style with durable metal frames, UV protection, and timeless design for any occasion.",
+  "category": "men",
+  "brand": "levi",
+  "price": 3899,
+  "salePrice": 3099,
+  "totalStock": 4,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:23:26.332Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:23:26.332Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67373d78da2ae4f9019799a4"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731673431/trendigo/ohdc8opkd120duo3hbgq.jpg",
+  "title": "Golden Elegance Ring",
+  "description": "The Golden Elegance Ring features a polished 18k gold band with a sleek, timeless design. Perfect for any occasion, it symbolizes sophistication and enduring beauty.",
+  "category": "accessories",
+  "brand": "h&m",
+  "price": 49999,
+  "salePrice": 45999,
+  "totalStock": 1,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:24:24.105Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:24:24.105Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67373db5da2ae4f9019799a7"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731673499/trendigo/mfd4jzhrsuh5akx3d6lk.jpg",
+  "title": "Enchanted Essence Perfume",
+  "description": "Enchanted Essence Perfume blends floral and citrus notes for a refreshing, captivating scent. Long-lasting and elegant, it’s perfect for everyday wear or special occasions.",
+  "category": "men",
+  "brand": "adidas",
+  "price": 8999,
+  "salePrice": 7899,
+  "totalStock": 9,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:25:25.783Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:25:25.783Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67373de9da2ae4f9019799aa"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731673545/trendigo/lmo3yxamkxmx8h7sh7hz.jpg",
+  "title": "Velvet Bloom Perfume",
+  "description": "Velvet Bloom Perfume captures the essence of elegance with a delicate blend of jasmine, vanilla, and musk. Luxurious and unforgettable, it’s the perfect fragrance for every moment.",
+  "category": "women",
+  "brand": "levi",
+  "price": 4999,
+  "salePrice": 4599,
+  "totalStock": 0,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:26:17.901Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:26:17.901Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67373e4bda2ae4f9019799ad"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731673628/trendigo/bum0ncpgxqbq4jwodq2h.jpg",
+  "title": "Noir Chic Black Handbag",
+  "description": "The Noir Chic Black Handbag combines sleek, sophisticated design with versatile functionality. Crafted from premium materials, it features a spacious interior and durable structure, making it perfect for any occasion.",
+  "category": "women",
+  "brand": "adidas",
+  "price": 79900,
+  "salePrice": 69000,
+  "totalStock": 1,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:27:55.448Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:27:55.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67373e7ada2ae4f9019799b0"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731673696/trendigo/q6baimorqv8mbgpwn6qk.jpg",
+  "title": "Titan Steel Men’s Chain",
+  "description": " The Titan Steel Men’s Chain features a bold, durable stainless steel design with a sleek, modern finish. Ideal for everyday wear or adding an edge to any outfit.",
+  "category": "accessories",
+  "brand": "puma",
+  "price": 2999,
+  "salePrice": 899,
+  "totalStock": 1,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:28:42.822Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:28:42.822Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67373eb1da2ae4f9019799b3"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731673752/trendigo/t96iyxg1h4ce6pmivgbn.jpg",
+  "title": "Classic Leather Men’s Wallet",
+  "description": "The Classic Leather Men’s Wallet is crafted from premium, soft leather, offering a sleek, minimalist design with multiple card slots and a coin pocket. Stylish, durable, and functional for everyday use.",
+  "category": "men",
+  "brand": "puma",
+  "price": 2499,
+  "salePrice": 2300,
+  "totalStock": 9,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:29:37.321Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:29:37.321Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67373ee2da2ae4f9019799b6"
+  },
+  "image": "http://res.cloudinary.com/dfkjerzpm/image/upload/v1731673818/trendigo/m9dtbno1o4qzvuodxksu.jpg",
+  "title": "Levi’s Classic Leather Wallet",
+  "description": "The Levi’s Classic Leather Wallet combines timeless style with durability. Crafted from premium leather, it features a sleek design with ample card slots, a bill compartment, and a subtle embossed logo.",
+  "category": "accessories",
+  "brand": "levi",
+  "price": 1999,
+  "salePrice": 1089,
+  "totalStock": 2,
+  "averageReview": 0,
+  "createdAt": {
+    "$date": "2024-11-15T12:30:26.788Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-15T12:30:26.788Z"
+  },
+  "__v": 0
+}]
